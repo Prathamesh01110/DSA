@@ -1,2 +1,2 @@
 # DSA
-A Competitive programming based dsa repo
+A Competitive Programming based DSA repo
