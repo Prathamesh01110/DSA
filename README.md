@@ -6,6 +6,10 @@ Welcome to the Competitive Programming Repository! This repository is a collecti
 
 This repository is a collection of our solutions to various problems from platforms like Codeforces, CSES and (more will added).
 
+## Repository Consistently Updated
+
+Started from January 1, 2024, and consistently updated.
+
 ## Structure
 
 The repository is organized by categories and platforms:
