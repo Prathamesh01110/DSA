@@ -22,8 +22,8 @@ Feel free to explore the folders to find solutions for specific problems or cont
 
 ### Codeforces User Handle 
 
--Prathamesh => https://codeforces.com/profile/prathamesh_01110
+- Prathamesh => https://codeforces.com/profile/prathamesh_01110
 
--Aditya => https://codeforces.com/profile/damndude
+- Aditya => https://codeforces.com/profile/damndude
 
 Happy coding! 🌟
