@@ -18,7 +18,7 @@ Feel free to explore the folders to find solutions for specific problems or cont
 
 ## Author's
 
-- Aditya Mohan & Prathamesh Jakkula
+- Prathamesh Jakkula & Aditya Mohan
 
 ### Codeforces User Handle 
 
