@@ -1,0 +1,14 @@
+Time Complexity (Basics)
+
+O => Big O notation
+O(1) => Does not depend on input size (direct formula that calculates the ans)
+O(logn) => Halves the input size at each step
+O(root n) => Slower than O(logn) and faster than O(n)
+O(n) => Linear algorithm (Often best time complextity -> can access each element before ans)
+O(nlogn) => Indicates sorting algorithm is used (maybe data structure of each element -> logn)
+O(n^2) => Indicates use of two nested loops
+O(n^3) => Indicates use of three nested loops
+O(2^n) => Iterates through subsets of all input elements
+// For example, the subsets of {1,2,3} are {1}, {2}, {3}, {1,2}, {1,3}, {2,3} and {1,2,3}.
+O(n!) => Iterates through all permutations of input elements
+// For example, the permutations of {1,2,3} are (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2) and (3,2,1).
