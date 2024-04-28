@@ -76,6 +76,7 @@
 //     for (int i = 0; i < n; i++)  arr[i] = fibo(i);
     
 //     for(int i = 0; i < n; i++)  printf("%d ", arr[i]);
+//     printf("\n");
 //     return 0;
 // }
 // // memo solution
@@ -97,3 +98,69 @@
 // }
 
 
+// #include <stdio.h>
+
+// int main(){
+//     int n;
+//     printf("Enter the number:");
+//     scanf("%d", &n);
+//     for(int i=0;i<n;i++){
+//     for(int j=0;j<n-i;j++){
+//         printf("*");
+//     }
+//     printf("\n");
+// }
+// }
+
+// perfect number
+// #include <stdio.h>
+// int main() {
+//     int n, sum = 0;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+//     for (int i = 1; i < n; i++) {
+//         if (n % i == 0) sum += i;
+//     }
+//     if (sum == n) printf("%d is a perfect number\n", n);
+//     else printf("%d is not a perfect number\n", n);
+//     return 0;
+// }
+
+// #include <stdio.h>
+// // Recursive function to calculate nCr
+// int nCr(int n, int r) {
+//     // Base cases
+//     if (r == 0 || r == n) {
+//         return 1;
+//     }
+//     // Recursive calls
+//     return nCr(n - 1, r - 1) + nCr(n - 1, r);
+// }
+// int main() {
+//     int n, r;
+//     printf("Enter the values of n and r (nCr): ");
+//     scanf("%d %d", &n, &r);
+//     // Check if r is valid (0 <= r <= n)
+//     if (r < 0 || r > n) {
+//         printf("Invalid input: r must be between 0 and n.\n");
+//         return 1;
+//     }
+//     // Calculate and print nCr
+//     printf("%dC%d = %d\n", n, r, nCr(n, r));
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0,r;
+//     printf("Enter the Number: ");
+//     scanf("%d", &n);
+//     while(n!=0){
+//         r=n%10;
+//         sum+=r;
+//         n=n/10;
+//     }
+//     printf("Sum of the digits: %d\n", sum);
+// }
+// Enter the Number: 156
+// Sum of the digits: 12
