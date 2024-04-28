@@ -50,18 +50,30 @@
 // ABCD
 
 // this one is little fucked up skip this one for now
-// for (int k = n - i; k > 0; k--) printf(" ");
-// for (int j = 0, ok=-1 ; ok<i, j <= i ; ok++, j++){ 
-//     if(j==0){
-//         printf("1");
-//         continue;
+// #include <stdio.h>
+// int main() {
+//     int n ; 
+//     printf("Enter the number of rows: ");
+//     scanf("%d", &n);
+//     for (int i = 0; i < n; i++) {
+//         for (int k = n - i; k > 0; k--) {
+//             printf(" ");
+//         }
+//         for (int j = 0; j <= i; j++) {
+//             printf("%d", j + 1);
+//         }
+//         char ch = 'A';
+//         for (int j = 0; j < i; j++) {
+//             printf("%c", ch + j);
+//         }
+//         printf("\n");
 //     }
-//     printf("%d%c",j+1, ch + ok);
-//     }
+//     return 0;
+// }
 //    1
 //   12A
-//  12A3B
-// 12A3B4C
+//  123AB
+// 1234ABC
 
 //fibonaci working till 10 numbers
 // #include <stdio.h>
