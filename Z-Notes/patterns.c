@@ -62,7 +62,7 @@
 //  12A3B
 // 12A3B4C
 
-
+//fibonaci working till 10 numbers
 // #include <stdio.h>
 // int fibo(int n) {
 //     if (n <= 1) return n;
@@ -79,7 +79,7 @@
 //     printf("\n");
 //     return 0;
 // }
-// // memo solution
+// // memoization solution wrong till 100000 numbers
 // #include <stdio.h>
 // int fibo(int n, int memo[]) {
 //     if (n <= 1) return n;
@@ -99,7 +99,6 @@
 
 
 // #include <stdio.h>
-
 // int main(){
 //     int n;
 //     printf("Enter the number:");
@@ -111,6 +110,10 @@
 //     printf("\n");
 // }
 // }
+// ****
+// ***
+// **
+// *
 
 // perfect number
 // #include <stdio.h>
@@ -150,6 +153,7 @@
 //     return 0;
 // }
 
+// sum of digits
 // #include <stdio.h>
 // int main(){
 //     int n,sum=0,r;
