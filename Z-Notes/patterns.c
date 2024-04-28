@@ -49,6 +49,7 @@
 // ABC
 // ABCD
 
+// this one is little fucked up skip this one for now
 // for (int k = n - i; k > 0; k--) printf(" ");
 // for (int j = 0, ok=-1 ; ok<i, j <= i ; ok++, j++){ 
 //     if(j==0){
