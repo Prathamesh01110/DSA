@@ -37,3 +37,5 @@ int main() {
      
         return 0;
     }
+
+// Logic - If k == 1, only subarrays of length 1 can be reversed, so the array must already be sorted. For k >= 2, any subarray can be rearranged, making sorting always possible.
